@@ -4,12 +4,14 @@ def add_numbers(a, b):
     """
     return a + b
 
+
 def print_numbers(a, b):
     """
     Print two numbers in a formatted way
     """
     print(f"First number: {a}")
     print(f"Second number: {b}")
+
 
 def main():
     # Example usage of our functions
@@ -24,6 +26,7 @@ def main():
     print("\nDemonstrating add_numbers function:")
     result = add_numbers(num1, num2)
     print(f"The sum of {num1} and {num2} is: {result}")
+
 
 if __name__ == "__main__":
     main()
