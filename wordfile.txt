@@ -1,6 +1,7 @@
 apple
 turtle
 safety
+two
 bannnana
 house
 sydney
@@ -9,3 +10,5 @@ cow
 Austraalia
 france
 science
+3
+Nineteen
