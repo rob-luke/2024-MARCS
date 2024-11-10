@@ -1,3 +1,6 @@
+import pytest
+
+
 def sum_activation(a):
     """Returns the sum of the values."""
     if not isinstance(a, list):
@@ -12,7 +15,5 @@ def test_calculate_sum_activation():
 
 
 def test_calculate_sum_activation_throws():
-    import pytest
-
     with pytest.raises(TypeError):
         sum_activation("not a list")
