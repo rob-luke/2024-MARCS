@@ -17,11 +17,11 @@ def main():
     # Example usage of our functions
     num1 = 10
     num2 = 20
-    
+
     # Print the numbers
     print("Demonstrating print_numbers function:")
     print_numbers(num1, num2)
-    
+
     # Add the numbers and show result
     print("\nDemonstrating add_numbers function:")
     result = add_numbers(num1, num2)
